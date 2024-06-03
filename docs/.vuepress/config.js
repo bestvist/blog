@@ -10,7 +10,7 @@ export default defineUserConfig({
   description: 'bestvist blog',
 
   theme: defaultTheme({
-    logo: '/img/hero.png',
+    logo: '/images/hero.png',
     navbar,
     sidebar,
   }),

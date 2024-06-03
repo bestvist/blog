@@ -1,7 +1,7 @@
 ---
 home: true
-title: Home
-heroImage: /img/hero.png
+title: 首页
+heroImage: /images/hero.png
 actions:
   - text: 阅读
     link: /blog/

@@ -1,9 +1,14 @@
 export const navbar = [
     {
         text: '博客',
-        children: [
-            '/blog/h5debug/h5debug.md',
-            '/blog/h5.md',
-        ],
+        link: '/blog/',
+    },
+    {
+        text: '前端体系',
+        link: '/frontend/'
+    },
+    {
+        text: 'vue',
+        link: '/vue/'
     },
 ]
