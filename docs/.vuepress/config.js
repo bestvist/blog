@@ -8,7 +8,7 @@ import { sidebar } from './config/sidebar';
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'bestvist blog',
-  description: 'bestvist blog',
+  description: 'A blog site.',
   theme: defaultTheme({
     logo: '/images/hero.png',
     navbar,
