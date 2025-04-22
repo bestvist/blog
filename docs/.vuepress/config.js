@@ -8,9 +8,15 @@ import { sidebar } from './config/sidebar';
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'bestvist blog',
-  description: 'A blog site.',
+  description: '技术小屋',
+  head: [
+        // 设置 favor.ico，.vuepress/public 下
+        [
+            'link', { rel: 'icon', href: '/images/logo.png' }
+        ]
+  ],
   theme: defaultTheme({
-    logo: '/images/hero.png',
+    logo: '/images/logo.png',
     navbar,
     sidebar,
   }),
